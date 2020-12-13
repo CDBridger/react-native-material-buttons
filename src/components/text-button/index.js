@@ -21,7 +21,7 @@ export default class TextButton extends PureComponent {
 
     title: PropTypes.string.isRequired,
     titleColor: PropTypes.string,
-    titleStyle: Animated.Text.propTypes.style,
+    titleStyle: Text.propTypes,
     disabledTitleColor: PropTypes.string,
   };
 
